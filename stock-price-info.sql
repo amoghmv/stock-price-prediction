@@ -31,9 +31,9 @@ limit 1           # pick the single highest
 
 # Max & Min closing prices for years 2021 and 2022
 select
-    max(case when date >= "2021-01-01" then closing_price end) as max_since_2021,                          # max close for 2021+
+    max(case when date >= "2021-01-01" then closing_price end) as max_since_2021,                          # max close for 2021
     min(case when date >= "2021-01-01" and date <= "2021-12-31" then closing_price end) as min_for_2021,   # min close in 2021
-    max(case when date >= "2022-01-01" then closing_price end) as max_since_2022,                          # max close for 2022+
+    max(case when date >= "2022-01-01" then closing_price end) as max_since_2022,                          # max close for 2022
     min(case when date >= "2022-01-01" then closing_price end) as min_for_2022                             # min close in 2022
 from (
     select
