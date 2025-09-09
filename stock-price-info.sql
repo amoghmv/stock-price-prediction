@@ -1,0 +1,81 @@
+# Finding the date range of the dataset
+with date_ranges as (
+select
+	min(date) as date_low,   # earliest trading date
+    max(date) as date_max    # latest trading date
+from stock_price_info
+) select * from date_ranges;
+
+# Daily average trading volume
+with daily_avg_volume as (
+select
+	date,									  
+	round(avg(volume),1) as avg_trading_vol   # average volume per day (rounded)
+from stock_price_info
+where date between "2020-01-01" and "2021-01-01"   # filter for 2020 only
+group by 1                                    # grouping by date
+order by 1 asc                                # sorting in ascending order
+) select * from daily_avg_volume;
+
+# Day with highest trading volume
+with day_with_highest_vol as (
+select
+	date,
+	round(avg(volume),1) as avg_trading_vol   # average volume per day
+from stock_price_info
+where date between "2020-01-01" and "2021-01-01" # getting specific dates
+group by 1		  # grouping by date
+order by 1 desc   # sort by volume descending
+limit 1           # pick the single highest
+) select * from day_with_highest_vol;
+
+# Max & Min closing prices for years 2021 and 2022
+select
+    max(case when date >= "2021-01-01" then closing_price end) as max_since_2021,                          # max close for 2021+
+    min(case when date >= "2021-01-01" and date <= "2021-12-31" then closing_price end) as min_for_2021,   # min close in 2021
+    max(case when date >= "2022-01-01" then closing_price end) as max_since_2022,                          # max close for 2022+
+    min(case when date >= "2022-01-01" then closing_price end) as min_for_2022                             # min close in 2022
+from (
+    select
+        date,
+        round(avg(close), 2) as closing_price,                # average close per day
+        round(avg(adjusted_closing), 2) as adjusted_closing   # average adjusted close per day
+    from stock_price_info
+    where date >= "2021-01-01"    # specific date
+    group by date                 # grouping by date
+) as max_min_price;
+
+# Comparing average returns by week
+with returns as (
+    select 
+        date,
+        year(date) as year,
+        weekday(date) as weekday_num,   # weekday(): 0=Monday, 6=Sunday
+        (adjusted_closing - lag(adjusted_closing) over (order by date)) / lag(adjusted_closing) over (order by date) as daily_return   # % change from previous day
+    from stock_price_info
+    where date between "2020-01-01" and "2023-01-01"
+)
+select 
+    year,
+    weekday_num,
+    round(avg(daily_return) * 100, 4) as avg_return_percent   # avg daily return in %
+from returns
+group by 1, 2
+order by 1, 2;
+
+# Average closing price by years
+with avg_closing as (
+    select
+        year(date) as year,
+        round(avg(close), 2) as avg_closing   # yearly average close
+    from stock_price_info
+    where year(date) >= "2018"
+    group by year(date)
+)
+select
+    year,
+    avg_closing,
+    round(avg_closing - lag(avg_closing) over (order by year),2) as close_diff   # year-on-year difference
+from avg_closing
+order by year;
+
