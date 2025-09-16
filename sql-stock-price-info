@@ -1,3 +1,4 @@
+#EXPLORATORY DATA ANALYSIS (EDA) HERE
 # Finding the date range of the dataset
 with date_ranges as (
 select
