@@ -8,7 +8,7 @@ The iPhone is the primary revenue driver for Apple, representing over 50% of the
 
 - The minimum and maximum date range in this dataset is **3rd Jan 2017** and **12th Dec 2022** 
 - We won't be considering anything less than this date range. For some modelling tasks, we may consider 
-- date ranges beyond 2018 and 2021.
+- date ranges beyond 2018 or 2021
 
 # 2. **FINDING THE MAXIMUM AND THE MINIMUM TRADING VOLUME FOR 2022**
 --> 
