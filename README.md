@@ -31,7 +31,7 @@ the phone was much **cheaper** than their flagships.
 ## **But why the volume drop during October**
 - Apple had to cut back production of **IPhone 14** and **IPhone 14 Plus** models due to **weaker demand**
 - Raised **doubts** about Apple's product strategy
-- Moreover, there were economic conditions like **inflation, recession fears and global uncertanities**
+- Moreover, there were economic conditions like **inflation, recession fears and global uncertainties**
 
 # 4. **LOWEST AND HIGHEST CLOSING PRICE FOR 2021 AND 2022**
 -->
