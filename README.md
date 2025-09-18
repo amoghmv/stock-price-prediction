@@ -1,4 +1,4 @@
-# **REST OF THE REPORT STILL PENDING - PREDICTIVE ANALYSIS - PYTHON**
+# **REST OF THE REPORT STILL PENDING - STOCK PRICE INSIGHTS AND UTILISATION OF PYTHON PLOTS**
 ## **EDA AND EXPLORATORY ANALYSIS (SQL QUERIES FIRST)**
 The iPhone is the primary revenue driver for Apple, representing over 50% of the company's total revenue. Though, the iPad and Mac account for 18% of its revenue, It is significantly less than what iPhone accounts for.
 - **Apple stock is heavily influenced by iPhones than Mac and iPad developments**
