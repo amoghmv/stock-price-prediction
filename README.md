@@ -3,7 +3,8 @@ The iPhone is the primary revenue driver for Apple, representing over 50% of the
 - **Apple stock is heavily influenced by iPhones than Mac and iPad developments**
 1. **FINDING THE DATE RANGE OF THE DATASET**
 --> 
-![SQL query result showing minimum date as January 3, 2017, and maximum date as December 12, 2022, indicating the dataset date range for Apple stock data](<MySQL Workbench 18-09-2025 09_37_57.png>)
+![SQL query result showing minimum date as January 3, 2017, and maximum date as December 12, 2022, indicating the dataset date range for Apple stock data]<img width="269" height="99" alt="image" src="https://github.com/user-attachments/assets/0edd444b-bfd7-4a71-8080-d1393a677999" />
+
 - The minimum and maximum date range in this dataset is **3rd Jan 2017** to **12th Dec 2022** 
 - We won't be considering anything less than this date range. For some modelling tasks, we may consider 
 - date ranges beyond 2018 and 2021.
