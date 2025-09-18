@@ -6,7 +6,7 @@ The iPhone is the primary revenue driver for Apple, representing over 50% of the
 --> 
 <img width="269" height="99" alt="image" src="https://github.com/user-attachments/assets/0edd444b-bfd7-4a71-8080-d1393a677999" />
 
-- The minimum and maximum date range in this dataset is **3rd Jan 2017** to **12th Dec 2022** 
+- The minimum and maximum date range in this dataset is **3rd Jan 2017** and **12th Dec 2022** 
 - We won't be considering anything less than this date range. For some modelling tasks, we may consider 
 - date ranges beyond 2018 and 2021.
 
