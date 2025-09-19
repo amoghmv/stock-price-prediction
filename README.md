@@ -71,3 +71,70 @@ Apple stock showed a massive closing price increase in 2021, but then dipped bac
 - Investors liked Apple's **product strategy** and started putting money
 - In 2022, iPhone 14 released, didn't see much popularity. Prices dropped, maybe due to **market correction**?
 
+# **CAUSES OF TRENDS (PYTHON)**
+# 7. **CLOSING PRICE TREND**
+-->
+<img width="695" height="545" alt="image" src="https://github.com/user-attachments/assets/e3435f15-df17-4010-8ef2-f8c20c032bab" />
+
+<img width="850" height="545" alt="image" src="https://github.com/user-attachments/assets/017e61a5-02fe-4711-9491-825dc3b75986" />
+
+The closing stock price started at **$145**, a steady growth trend throughout until **2022**.  
+The closing price saw its highest in those sample dates at **$160** before dropping in **2023**.
+
+
+## **Why?**
+- Everything signals it towards being an **iPhone 14** problem and **recession fears**, but is that the only cause for this?  
+- In 2022, the **federal reserve interest rates** went up and a rise in **inflation** were the causes as well  
+- The market shot up in **2021**, resulted in a **market correction** in **2022**  
+
+
+## BUT, BUT, some things we haven't touched upon
+- **Russia invaded Ukraine** right around this time, impacting the global market  
+- **OpenAI's ChatGPT** was released right around this time, a technological disruption  
+- Companies overreacted and started **laying off several employees**  
+- But, laying off signalled **operational inefficiency**, **future doubts** about the company, and added **geopolitical tension** to the mix, caused a downtrend  
+
+
+# 8. **DEATH CROSS/GOLDEN CROSS AND MOVING AVERAGES**
+-->
+<img width="857" height="622" alt="image" src="https://github.com/user-attachments/assets/8a0e646e-6d00-4e1d-b8fe-52bd1e65ca34" />
+
+- Around mid-**2020**, the **50-day MA** crossed above the **200-day MA** briefly as the stock price started a strong upward trend, suggesting a major **bullish momentum**.  
+- Near the end of **2021** or early **2022**, the **50-day MA** crossed below the **200-day MA** indicating a **death cross**. This coincided with the price peak and subsequent downtrend in **2022**  
+- Early **2023** (or close to end of **2022**) shows the **50-day MA** again crossing above the **200-day MA**, possible new **bullish cycle** hinted?  
+- The chart explains how **golden and death crosses** can be **leading indicators** for trend changes. The **50-day and 200-day MA crossovers** matched well with significant price trends in Apple stock over this time.  
+
+
+# 9. **DAILY RETURNS DISTRIBUTION PLOT**
+-->
+<img width="650" height="545" alt="image" src="https://github.com/user-attachments/assets/0d820d44-5e19-4a2d-82d7-71e69f21baa7" />
+
+- The central **red box** represents the **interquartile range** (middle 50% of daily returns).  
+- The horizontal line inside the box marks the **median daily return**, which is close to zero.  
+- Whiskers extend to show the general spread, individual dots are days when returns were much higher or lower than normal.  
+
+
+## **What does the chart say?**
+- Returns are **clutered around 0**, signalling that price movements weren't so **volatile**  
+- There are **outliers**, however, tells us that there were occasional major price moves - launch of a **new chip, product, war, recession** etc.  
+- But these outliers were more **positive** than negative. The **uptrends** were bigger than the downtrends.  
+
+
+# 10. **RATE OF VOLATILITY**
+-->
+<img width="609" height="468" alt="image" src="https://github.com/user-attachments/assets/4fd6f2a9-e886-4644-bd11-3a951615311f" />
+
+- High **volatility** in **2020** can be hinted towards the **pandemic**  
+- In **2022**, it was the high **interest rates**, **Russia-Ukraine war**, **recession fears**, **AI disruption**  
+- In **2021**, the volatility being low hints towards more stable market movement. As we looked at the closing prices for **2021**, they were not far apart and were partially close. Even around the launch of the **iPhone 13**, the market moved up gradually in terms of share volume  
+
+
+# 11. **RELATIVE STRENGTH INDEX**
+-->
+<img width="864" height="699" alt="image" src="https://github.com/user-attachments/assets/0200ac7c-fa32-4faf-acc2-9126f2e1927f" />
+
+- I can't help but connect the dots for **2022** again. **2021 October** saw investors **overselling** their stock  
+- It opened up a **buying opportunity** for potential investors. Apple Inc. is considered a very good long term investment by analysts.  
+- We could see that, just a month or two later, the stock shot up over an index of **70** again.  
+- But ofcourse, investor psychology, it drops back down again. Buy low, sell high, repeat. But such massive changes in index is only explained by other **economic conditions** and not just psychology (the points we discuseed above - **war, AI disruption, layoffs, pandemic, recession fears, etc.**)  
+
