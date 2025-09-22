@@ -147,7 +147,7 @@ The closing price saw its highest in those sample dates at **$160** before dropp
 - Both lines closely follow each other, indicating the model is capturing the **overall trend**, including **rises, drops**, and **volatility**, quite well.
 - Minor **deviations** where orange and blue separate show where the model was **less accurate**, often during **sudden large price fluctuation**
 
-# 13. **RANDOM FOREEST REGRESSOR AND MSE
+# 13. **RANDOM FOREEST REGRESSOR AND MSE**
 --> 
 **[MSE = 6.12, RFR = 10.89, RMSE = 2.47, MAE = 1.89]**
 - The **Mean Squared Error** (MSE) of **6.12** for **Linear Regression** is quite **low** for **volatile stock data**, indicating the model predicts closing prices **close to the actuals**
