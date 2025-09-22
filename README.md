@@ -138,3 +138,26 @@ The closing price saw its highest in those sample dates at **$160** before dropp
 - We could see that, just a month or two later, the stock shot up over an index of **70** again.  
 - But ofcourse, investor psychology, it drops back down again. Buy low, sell high, repeat. But such massive changes in index is only explained by other **economic conditions** and not just psychology (the points we discuseed above - **war, AI disruption, layoffs, pandemic, recession fears, etc.**)  
 
+# 12. **LINEAR REGRESSION**
+-->
+<img width="845" height="680" alt="image" src="https://github.com/user-attachments/assets/acd06249-2852-4c22-a0b3-eb884b02b9da" />
+
+- The **blue** line represents the **actual** observed closing prices.
+- The **orange** line represents the model’s **predicted** closing prices.
+- Both lines closely follow each other, indicating the model is capturing the **overall trend**, including **rises, drops**, and **volatility**, quite well.
+- Minor **deviations** where orange and blue separate show where the model was **less accurate**, often during **sudden large price fluctuation**
+
+# 13. **RANDOM FOREEST REGRESSOR AND MSE
+--> 
+**[MSE = 6.12, RFR = 10.89, RMSE = 2.47, MAE = 1.89]**
+- The **Mean Squared Error** (MSE) of **6.12** for **Linear Regression** is quite **low** for **volatile stock data**, indicating the model predicts closing prices **close to the actuals**
+- The **Random Forest Regressor MSE** is slightly **higher** at **10.89** but **still reflects** decent predictive performance.
+- The **Root Mean Squared Error** (RMSE) of about **2.47** means predictions on average **deviate** from actual values by this margin.
+- The **Mean Absolute Error** (MAE) around **1.89** further confirms that **predicted closing prices** are within **roughly 2 units** of the true price.
+
+# **Predictions?**
+- The Output of **25 days of predicted prices** in a steady **range around 155** shows the **model expects stability or modest growth**
+- The values don't mean the price is going to hover around 155, but just means we can expect no big price fluctuations for those days
+- However, **blindly trusting models** without your **own intuition** can lead to **bad results**
+
+
