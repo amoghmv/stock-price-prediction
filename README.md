@@ -1,4 +1,10 @@
-# **BLOG FILE ON FINANCIAL ANALYSIS STILL PENDING - STOCK PRICE INSIGHTS**
+# **What this contains..?**
+--> Financial Analysis is on this blogfile -
+https://amoghmv.substack.com/p/financial-analysis-stock-price-prediction
+--> Data Exploration and understanding the dataset 
+--> Plotting charts and trends
+--> Predictive Modelling
+
 ## **EDA AND EXPLORATORY ANALYSIS**
 The iPhone is the primary revenue driver for Apple, representing over 50% of the company's total revenue. Though, the iPad and Mac account for 18% of its revenue, It is significantly less than what iPhone accounts for.
 - **Apple stock is heavily influenced by iPhones than Mac and iPad developments**
