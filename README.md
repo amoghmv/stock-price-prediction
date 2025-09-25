@@ -1,8 +1,11 @@
 # **What this contains..?**
 --> Financial Analysis is on this blogfile -
 https://amoghmv.substack.com/p/financial-analysis-stock-price-prediction
+
 --> Data Exploration and understanding the dataset 
+
 --> Plotting charts and trends
+
 --> Predictive Modelling
 
 ## **EDA AND EXPLORATORY ANALYSIS**
